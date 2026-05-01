@@ -697,7 +697,7 @@
           <!-- Footer -->
      <footer class="bg-bark text-white py-8">
          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-             <p>&copy; <?php echo date('Y'); ?> Piljenje drva Zagreb &mdash; Demo</p>
+             <p>&copy; 2026 Piljenje drva Zagreb &mdash; Demo</p>
                           <p class="mt-2 text-sm text-gray-300">Profesionalna usluga piljenja drva za ogrjev &mdash; Demo web sajta</p>
              <p class="mt-2 text-xs text-gray-400">Dizajn i razvoj: <a href="https://svilenkovic.com" class="hover:text-white transition-colors">D. Svilenković</a> | Kontakt: <a href="mailto:dimitrije@svilenkovic.com" class="hover:text-white transition-colors">dimitrije@svilenkovic.com</a> | <a href="tel:+381612248989" class="hover:text-white transition-colors">+381 61 224 8989</a></p>
              <p class="mt-3 text-xs text-gray-500"><a href="/privacy.html" class="hover:text-white transition-colors">Politika privatnosti</a> &middot; <a href="/terms.html" class="hover:text-white transition-colors">Uslovi korišćenja</a></p>
