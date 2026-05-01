@@ -1,12 +1,26 @@
 User-agent: *
 Allow: /
-
-# Sitemap
-Sitemap: https://piljenjedrva.svilenkovic.com/sitemap.xml
-
-# Crawl-delay
 Crawl-delay: 1
 
-# Disallow admin areas (if any)
+# AI bots — explicitly allowed for content discovery (2026)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Disallow sensitive areas
 Disallow: /admin/
 Disallow: /private/
+Disallow: /vendor/
+Disallow: /*.bak$
+Disallow: /*.bak_*
+
+# Sitemap
+Sitemap: https://piljenjedrva.svilenkovic.rs/sitemap.xml

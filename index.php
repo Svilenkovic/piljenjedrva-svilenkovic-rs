@@ -3,123 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔥 DEMO SAJT - Piljenje Drva Zagreb - Rangira se kao #1 | po dogovoru</title>
-    <meta name="description" content="⭐ DEMO SAJT - po dogovoru! Rangira se kao #1 za 'piljenje drva zagreb'. SEO optimizovan demo web sajta za piljenje drva. Profesionalno dizajniran, spremno za upotrebu. Kontakt: svilenkovic.com">
-    <meta name="keywords" content="piljenje drva zagreb, piljenje drva za ogrjev, piljenje drva hrvatska, piljenje drva zagrebačka županija, piljenje drva na terenu, piljenje drva bukva hrast, piljenje drva motorne pile, piljenje drva trakne pile, piljenje drva cijena, demo web sajta">
-    
+    <title>Demo sajt — Piljenje drva Zagreb | po dogovoru</title>
+    <meta name="description" content="Demo sajta za uslugu piljenja drva u Zagrebu i okolici. Prikaz dizajna, SEO strukture i funkcionalnosti — kontaktirajte nas na svilenkovic.com za izradu sopstvenog sajta.">
+    <meta name="keywords" content="piljenje drva zagreb, piljenje drva za ogrjev, piljenje drva hrvatska, piljenje drva zagrebačka županija, demo sajta">
+    <meta name="theme-color" content="#8B4513">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://piljenjedrva.svilenkovic.com/">
-    <meta property="og:title" content="🔥 DEMO SAJT - Piljenje Drva Zagreb - Rangira se kao #1">
-    <meta property="og:description" content="⭐ DEMO SAJT - po dogovoru! Rangira se kao #1 za 'piljenje drva zagreb'. SEO optimizovan web sajt spremno za upotrebu.">
-    <meta property="og:image" content="https://piljenjedrva.svilenkovic.com/og-image.jpg">
-    
+    <meta property="og:url" content="https://piljenjedrva.svilenkovic.rs/">
+    <meta property="og:title" content="Demo sajt — Piljenje drva Zagreb">
+    <meta property="og:description" content="Demo sajta za uslugu piljenja drva u Zagrebu i okolici. Prikaz dizajna, SEO strukture i funkcionalnosti.">
+    <meta property="og:image" content="https://piljenjedrva.svilenkovic.rs/og-image.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="hr_HR">
+    <meta property="og:site_name" content="Piljenje drva Zagreb (demo)">
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://piljenjedrva.svilenkovic.com/">
-    <meta property="twitter:title" content="🔥 DEMO SAJT - Piljenje Drva Zagreb">
-    <meta property="twitter:description" content="⭐ DEMO SAJT - po dogovoru! Rangira se kao #1 za 'piljenje drva zagreb'.">
-    <meta property="twitter:image" content="https://piljenjedrva.svilenkovic.com/og-image.jpg">
-    
+    <meta property="twitter:url" content="https://piljenjedrva.svilenkovic.rs/">
+    <meta property="twitter:title" content="Demo sajt — Piljenje drva Zagreb">
+    <meta property="twitter:description" content="Demo sajta za uslugu piljenja drva u Zagrebu i okolici.">
+    <meta property="twitter:image" content="https://piljenjedrva.svilenkovic.rs/og-image.svg">
+
     <!-- Additional SEO Meta Tags -->
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Piljenje Drva Zagreb">
+    <meta name="author" content="D. Svilenković">
     <meta name="geo.region" content="HR-21">
     <meta name="geo.placename" content="Zagreb">
     <meta name="geo.position" content="45.8150;15.9819">
     <meta name="ICBM" content="45.8150, 15.9819">
-    <link rel="canonical" href="https://piljenjedrva.svilenkovic.com/">
-    
+    <link rel="canonical" href="https://piljenjedrva.svilenkovic.rs/">
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="shortcut icon" href="/favicon.svg">
-    
-    <!-- Structured Data (JSON-LD) -->
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Structured Data (JSON-LD) — demo, bez fake review-a -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Piljenje Drva Zagreb",
-        "description": "Profesionalna usluga piljenja drva za ogrjev u Zagrebu i okolici",
-        "url": "https://piljenjedrva.svilenkovic.com",
-        "telephone": "+381612248989",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Zagreb",
-            "addressRegion": "Zagrebačka županija",
-            "addressCountry": "HR"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 45.8150,
-            "longitude": 15.9819
-        },
-        "serviceArea": {
-            "@type": "GeoCircle",
-            "geoMidpoint": {
-                "@type": "GeoCoordinates",
-                "latitude": 45.8150,
-                "longitude": 15.9819
-            },
-            "geoRadius": "50000"
-        },
-        "openingHours": "Mo-Su 00:00-23:59",
-        "priceRange": "€€",
-        "currenciesAccepted": "EUR",
-        "paymentAccepted": "Cash",
-        "areaServed": ["Zagreb", "Zagrebačka županija"],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Usluge piljenja drva",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Piljenje drva",
-                        "description": "Profesionalno piljenje drva za ogrjev"
-                    },
-                    "price": "7",
-                    "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "UnitPriceSpecification",
-                        "price": "7",
-                        "priceCurrency": "EUR",
-                        "unitText": "metar"
-                    }
-                }
-            ]
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "127"
+        "@type": "WebSite",
+        "name": "Piljenje drva Zagreb (demo)",
+        "description": "Demo sajta za uslugu piljenja drva u Zagrebu i okolici. Prikaz dizajna i SEO strukture za uslužne sajtove.",
+        "url": "https://piljenjedrva.svilenkovic.rs/",
+        "inLanguage": "hr",
+        "publisher": {
+            "@type": "Person",
+            "name": "D. Svilenković",
+            "url": "https://svilenkovic.com",
+            "email": "dimitrije@svilenkovic.com"
         }
     }
     </script>
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        wood: '#8B4513',
-                        bark: '#654321',
-                        leaf: '#228B22',
-                        earth: '#8FBC8F',
-                        cream: '#F5F5DC'
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Self-hosted Tailwind (precompiled) + Font Awesome subset -->
+    <link rel="stylesheet" href="/tailwind.min.css">
+    <link rel="stylesheet" href="/fonts/fa-subset.css">
+
+    <link rel="stylesheet" href="/style.css">
     <style>
         .wood-bg {
             background: linear-gradient(135deg, #8B4513 0%, #654321 100%);
@@ -193,10 +137,10 @@
              <div class="flex justify-between h-16">
                  <div class="flex items-center">
                      <div class="flex-shrink-0">
-                         <h1 class="text-xl font-bold">
-                             <i class="fas fa-tree mr-2"></i>
-                             Piljenje Drva - Demo
-                         </h1>
+                         <a href="/" class="text-xl font-bold flex items-center" aria-label="Piljenje Drva — Demo, naslovna">
+                             <i class="fas fa-tree mr-2" aria-hidden="true"></i>
+                             Piljenje Drva &mdash; Demo
+                         </a>
                      </div>
                  </div>
                  
@@ -232,7 +176,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center fade-in">
                 <div class="mb-8">
-                    <i class="fas fa-saw text-6xl mb-6 text-leaf"></i>
+                    <i class="fas fa-tree text-6xl mb-6 text-leaf"></i>
                 </div>
                                  <h1 class="text-4xl md:text-6xl font-bold mb-6">
                      Piljenje Drva Zagreb - Demo
@@ -753,9 +697,10 @@
           <!-- Footer -->
      <footer class="bg-bark text-white py-8">
          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-             <p>&copy; 2025 Piljenje drva Zagreb - Demo</p>
-                          <p class="mt-2 text-sm text-gray-300">Profesionalna usluga piljenja drva za ogrjev - Demo web sajta</p>
-             <p class="mt-2 text-xs text-gray-400">Dizajn i Razvoj: <a href="https://svilenkovic.com" class="hover:text-white transition-colors">D. Svilenković</a> | Kontakt: <a href="mailto:dimitrije@svilenkovic.com" class="hover:text-white transition-colors">dimitrije@svilenkovic.com</a> | <a href="tel:+381612248989" class="hover:text-white transition-colors">+381612248989</a></p>
+             <p>&copy; <?php echo date('Y'); ?> Piljenje drva Zagreb &mdash; Demo</p>
+                          <p class="mt-2 text-sm text-gray-300">Profesionalna usluga piljenja drva za ogrjev &mdash; Demo web sajta</p>
+             <p class="mt-2 text-xs text-gray-400">Dizajn i razvoj: <a href="https://svilenkovic.com" class="hover:text-white transition-colors">D. Svilenković</a> | Kontakt: <a href="mailto:dimitrije@svilenkovic.com" class="hover:text-white transition-colors">dimitrije@svilenkovic.com</a> | <a href="tel:+381612248989" class="hover:text-white transition-colors">+381 61 224 8989</a></p>
+             <p class="mt-3 text-xs text-gray-500"><a href="/privacy.html" class="hover:text-white transition-colors">Politika privatnosti</a> &middot; <a href="/terms.html" class="hover:text-white transition-colors">Uslovi korišćenja</a></p>
              
                      <div class="flex flex-wrap justify-center gap-4 text-xs">
                         <a href="https://onbeat.ba" target="_blank" class="text-gray-400 hover:text-white transition-colors">onbeat.ba</a>
@@ -775,26 +720,42 @@
                         <a href="https://svilenkovic.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">svilenkovic.com</a>
                      </div>
                  </div>
-             </div>
-         </div>
      </footer>
 
-    <!-- Demo badge removed -->
+    <!-- Cookie consent banner (vanilla, no tracking yet — demo only) -->
+    <div id="cookie-banner" hidden role="dialog" aria-label="Cookie consent" class="fixed bottom-4 left-4 right-4 md:left-auto md:max-w-md z-[100] bg-bark text-white p-6 rounded-xl shadow-2xl">
+        <h3 class="font-bold text-lg mb-2">Kolačići</h3>
+        <p class="text-sm text-gray-200 mb-4">Sajt koristi samo neophodne kolačiće za osnovnu funkcionalnost. Pogledaj <a href="/privacy.html" class="text-leaf underline">Politiku privatnosti</a>.</p>
+        <div class="flex gap-3">
+            <button id="cb-essential" type="button" class="flex-1 px-4 py-2 border border-white/30 text-sm rounded hover:bg-white/10 transition-colors">Samo neophodni</button>
+            <button id="cb-all" type="button" class="flex-1 px-4 py-2 bg-leaf text-white text-sm rounded font-semibold hover:bg-green-600 transition-colors">Prihvati sve</button>
+        </div>
+    </div>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <!-- Sticky mobile CTA bar -->
+    <div class="fixed bottom-0 inset-x-0 z-40 bg-wood text-white shadow-2xl border-t border-white/10 md:hidden flex">
+        <a href="tel:+381612248989" class="flex-1 py-3 text-center text-sm font-semibold flex items-center justify-center gap-2 hover:bg-bark transition-colors">
+            <i class="fas fa-phone" aria-hidden="true"></i> Pozovi
+        </a>
+        <a href="#kontakt" class="flex-1 py-3 text-center text-sm font-semibold flex items-center justify-center gap-2 bg-leaf hover:bg-green-600 transition-colors">
+            <i class="fas fa-calendar" aria-hidden="true"></i> Termin
+        </a>
+    </div>
+
+    <script src="/script.js"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'GA_MEASUREMENT_ID');
+    // Cookie banner logic — minimum viable
+    (function(){
+        var k='pilj_cc_v1', b=document.getElementById('cookie-banner');
+        if(!b) return;
+        if(!localStorage.getItem(k)) b.hidden=false;
+        function accept(level){ try{localStorage.setItem(k, JSON.stringify({level:level,ts:Date.now()}));}catch(e){} b.hidden=true; }
+        var be=document.getElementById('cb-essential'); if(be) be.onclick=function(){accept('essential')};
+        var ba=document.getElementById('cb-all'); if(ba) ba.onclick=function(){accept('all')};
+    })();
+    // Body padding adjustment for sticky mobile CTA
+    if(window.innerWidth < 768){ document.body.style.paddingBottom='60px'; }
     </script>
-    
-    <!-- Google Search Console -->
-    <meta name="google-site-verification" content="your-verification-code" />
-    
-    <script src="script.js"></script>
 <script id="demo-notice-script">(function(){if(document.querySelector("[data-demo-notice='1']")){return;}var n=document.createElement("div");n.setAttribute("data-demo-notice","1");n.textContent='Ovo je DEMO sajt za prezentaciju izgleda i funkcionalnosti.';n.style.position="fixed";n.style.top="0";n.style.left="0";n.style.right="0";n.style.zIndex="2147483647";n.style.padding="10px 14px";n.style.fontFamily="system-ui,-apple-system,Segoe UI,Arial,sans-serif";n.style.fontSize="12px";n.style.lineHeight="1.4";n.style.textAlign="center";n.style.background="#111";n.style.color="#f5f5f5";n.style.borderBottom="1px solid rgba(255,255,255,0.15)";document.body.style.paddingTop="48px";document.body.appendChild(n);})();</script>
 </body>
-</html> 
-
+</html>

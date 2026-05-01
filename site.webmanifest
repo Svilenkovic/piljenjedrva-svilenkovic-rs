@@ -1,0 +1,24 @@
+{
+  "name": "Piljenje drva Zagreb (demo)",
+  "short_name": "Piljenje drva",
+  "description": "Demo sajta za uslugu piljenja drva u Zagrebu i okolici.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F5F5DC",
+  "theme_color": "#8B4513",
+  "lang": "hr",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
