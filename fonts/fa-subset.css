@@ -1,0 +1,22 @@
+/* Font Awesome 6.5.1 Solid - subset for piljenjedrva.svilenkovic.rs (17 icons) */
+@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:swap;src:url("/fonts/fa-solid-900.subset.woff2") format("woff2")}
+.fas,.fa-solid{font-family:"Font Awesome 6 Free";font-weight:900;font-style:normal;display:inline-block;font-variant:normal;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased}
+.fas::before,.fa-solid::before{font-family:"Font Awesome 6 Free";font-weight:900;display:inline-block;text-decoration:inherit}
+.fa-bars::before{content:"\f0c9"}
+.fa-calendar::before{content:"\f133"}
+.fa-check::before{content:"\f00c"}
+.fa-check-circle::before,.fa-circle-check::before{content:"\f058"}
+.fa-clock::before{content:"\f017"}
+.fa-crown::before{content:"\f521"}
+.fa-envelope::before{content:"\f0e0"}
+.fa-globe::before{content:"\f0ac"}
+.fa-info-circle::before,.fa-circle-info::before{content:"\f05a"}
+.fa-map-marker-alt::before,.fa-location-dot::before{content:"\f3c5"}
+.fa-phone::before{content:"\f095"}
+.fa-saw::before,.fa-industry::before{content:"\f275"}
+.fa-shield-alt::before,.fa-shield-halved::before{content:"\f3ed"}
+.fa-shopping-cart::before,.fa-cart-shopping::before{content:"\f07a"}
+.fa-tools::before,.fa-screwdriver-wrench::before{content:"\f7d9"}
+.fa-tree::before{content:"\f1bb"}
+.fa-truck::before{content:"\f0d1"}
+.fa-mr-2,.fas.mr-2{margin-right:.5rem}
