@@ -1,0 +1,351 @@
+/* Piljenje Drva - Natural Wood Theme Styles */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F5F5DC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8B4513;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #654321;
+}
+
+/* Enhanced animations */
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes woodPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes leafShake {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+}
+
+/* Service card enhancements */
+.service-card {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(34, 139, 34, 0.1), transparent);
+    transition: left 0.5s;
+}
+
+.service-card:hover::before {
+    left: 100%;
+}
+
+.service-card:hover {
+    border-color: #228B22;
+    transform: translateY(-5px);
+}
+
+/* Icon animations */
+.icon-bounce {
+    animation: woodPulse 2s infinite;
+}
+
+.icon-leaf {
+    animation: leafShake 3s ease-in-out infinite;
+}
+
+/* Contact form enhancements */
+.contact-input:focus {
+    border-color: #228B22;
+    box-shadow: 0 0 0 3px rgba(34, 139, 34, 0.1);
+}
+
+/* Button hover effects */
+.btn-wood {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #8B4513, #654321);
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-wood::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn-wood:hover::before {
+    left: 100%;
+}
+
+.btn-wood:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(139, 69, 19, 0.3);
+}
+
+/* Price card enhancements */
+.price-card {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.price-card:hover {
+    border-color: #228B22;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(34, 139, 34, 0.2);
+}
+
+.price-card.featured {
+    border-color: #228B22;
+    background: linear-gradient(135deg, #F5F5DC, #F0F8FF);
+}
+
+/* Stats counter animation */
+.stat-number {
+    transition: all 0.3s ease;
+    color: #228B22;
+}
+
+.stat-number:hover {
+    transform: scale(1.1);
+    color: #8B4513;
+}
+
+/* Mobile menu */
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+    
+    .desktop-menu {
+        display: none;
+    }
+}
+
+/* Loading animation */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Success/error messages */
+.message {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.message.success {
+    background-color: #dcfce7;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+}
+
+.message.error {
+    background-color: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #fecaca;
+}
+
+/* Wood texture backgrounds */
+.wood-texture-light {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="woodLight" width="30" height="30" patternUnits="userSpaceOnUse"><rect width="30" height="30" fill="%23F5F5DC"/><circle cx="15" cy="15" r="1" fill="%238B4513" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23woodLight)"/></svg>');
+}
+
+.wood-texture-medium {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="woodMedium" width="25" height="25" patternUnits="userSpaceOnUse"><rect width="25" height="25" fill="%23DEB887"/><circle cx="12.5" cy="12.5" r="1" fill="%23654321" opacity="0.4"/></pattern></defs><rect width="100" height="100" fill="url(%23woodMedium)"/></svg>');
+}
+
+/* Card shadows */
+.card-shadow-wood {
+    box-shadow: 0 4px 6px -1px rgba(139, 69, 19, 0.1), 0 2px 4px -1px rgba(139, 69, 19, 0.06);
+}
+
+.card-shadow-wood:hover {
+    box-shadow: 0 20px 25px -5px rgba(139, 69, 19, 0.2), 0 10px 10px -5px rgba(139, 69, 19, 0.1);
+}
+
+/* Text selection */
+::selection {
+    background-color: #228B22;
+    color: white;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+    outline: 2px solid #228B22;
+    outline-offset: 2px;
+}
+
+/* Natural wood gradients */
+.gradient-wood {
+    background: linear-gradient(135deg, #8B4513 0%, #654321 50%, #8B4513 100%);
+}
+
+.gradient-leaf {
+    background: linear-gradient(135deg, #228B22 0%, #32CD32 50%, #228B22 100%);
+}
+
+.gradient-earth {
+    background: linear-gradient(135deg, #8FBC8F 0%, #90EE90 50%, #8FBC8F 100%);
+}
+
+/* FAQ animations */
+.faq-item {
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.faq-item:hover {
+    border-left-color: #228B22;
+    background-color: #F0F8FF;
+    transform: translateX(5px);
+}
+
+/* Contact form styling */
+.contact-form {
+    background: linear-gradient(135deg, #F5F5DC, #F0F8FF);
+    border: 2px solid #DEB887;
+}
+
+.contact-form:focus-within {
+    border-color: #228B22;
+    box-shadow: 0 0 0 3px rgba(34, 139, 34, 0.1);
+}
+
+/* Hero section enhancements */
+.hero-wood {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-wood::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="woodGrain" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="%238B4513"/><path d="M0 25 Q25 20 50 25 T100 25" stroke="%23654321" stroke-width="1" fill="none" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23woodGrain)"/></svg>');
+    opacity: 0.1;
+}
+
+/* Print styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .wood-bg, .leaf-bg {
+        background: white !important;
+        color: black !important;
+    }
+}
+
+/* Responsive enhancements */
+@media (max-width: 640px) {
+    .hero-title {
+        font-size: 2rem !important;
+    }
+    
+    .price-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* Animation delays for staggered effects */
+.fade-in-delay-1 {
+    animation-delay: 0.1s;
+}
+
+.fade-in-delay-2 {
+    animation-delay: 0.2s;
+}
+
+.fade-in-delay-3 {
+    animation-delay: 0.3s;
+}
+
+.fade-in-delay-4 {
+    animation-delay: 0.4s;
+}
+
+.fade-in-delay-5 {
+    animation-delay: 0.5s;
+}
+
+/* Wood grain texture overlay */
+.wood-grain::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="none"/><path d="M0 10 Q10 8 20 10 T40 10" stroke="%23654321" stroke-width="0.5" fill="none" opacity="0.2"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+    pointer-events: none;
+} 
