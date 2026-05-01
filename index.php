@@ -153,8 +153,8 @@
                  
                  <!-- Mobile menu button -->
                  <div class="md:hidden flex items-center">
-                     <button id="mobileMenuBtn" class="text-white hover:text-leaf transition-colors focus:outline-none focus:text-leaf">
-                         <i class="fas fa-bars text-xl"></i>
+                     <button id="mobileMenuBtn" type="button" aria-label="Otvori navigacioni meni" aria-expanded="false" aria-controls="mobileMenu" class="text-white hover:text-leaf transition-colors focus:outline-none focus:text-leaf p-2">
+                         <i class="fas fa-bars text-xl" aria-hidden="true"></i>
                      </button>
                  </div>
              </div>
@@ -699,45 +699,44 @@
          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
              <p>&copy; 2026 Piljenje drva Zagreb &mdash; Demo</p>
                           <p class="mt-2 text-sm text-gray-300">Profesionalna usluga piljenja drva za ogrjev &mdash; Demo web sajta</p>
-             <p class="mt-2 text-xs text-gray-400">Dizajn i razvoj: <a href="https://svilenkovic.com" class="hover:text-white transition-colors">D. Svilenković</a> | Kontakt: <a href="mailto:dimitrije@svilenkovic.com" class="hover:text-white transition-colors">dimitrije@svilenkovic.com</a> | <a href="tel:+381612248989" class="hover:text-white transition-colors">+381 61 224 8989</a></p>
-             <p class="mt-3 text-xs text-gray-500"><a href="/privacy.html" class="hover:text-white transition-colors">Politika privatnosti</a> &middot; <a href="/terms.html" class="hover:text-white transition-colors">Uslovi korišćenja</a></p>
+             <p class="mt-2 text-xs text-gray-300">Dizajn i razvoj: <a href="https://svilenkovic.com" class="hover:text-white transition-colors">D. Svilenković</a> | Kontakt: <a href="mailto:dimitrije@svilenkovic.com" class="hover:text-white transition-colors">dimitrije@svilenkovic.com</a> | <a href="tel:+381612248989" class="hover:text-white transition-colors">+381 61 224 8989</a></p>
+             <p class="mt-3 text-xs text-gray-300"><a href="/privacy.html" class="hover:text-white transition-colors">Politika privatnosti</a> &middot; <a href="/terms.html" class="hover:text-white transition-colors">Uslovi korišćenja</a></p>
              
-                     <div class="flex flex-wrap justify-center gap-4 text-xs">
-                        <a href="https://onbeat.ba" target="_blank" class="text-gray-400 hover:text-white transition-colors">onbeat.ba</a>
-                        <a href="https://prvalekcija.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">prvalekcija.com</a>
-                        <a href="https://detailing016.rs" target="_blank" class="text-gray-400 hover:text-white transition-colors">detailing016.rs</a>
-                        <a href="https://glassbosnjace.rs" target="_blank" class="text-gray-400 hover:text-white transition-colors">glassbosnjace.rs</a>
-                        <a href="https://glassbosnjace.online" target="_blank" class="text-gray-400 hover:text-white transition-colors">glassbosnjace.online</a>
-                        <a href="https://batastankovic.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">batastankovic.com</a>
-                        <a href="https://autoset.rs" target="_blank" class="text-gray-400 hover:text-white transition-colors">autoset.rs</a>
-                        <a href="https://vodoinstalaterzlaja2015.rs" target="_blank" class="text-gray-400 hover:text-white transition-colors">vodoinstalaterzlaja2015.rs</a>
-                        <a href="https://ivkovicprevoz.rs" target="_blank" class="text-gray-400 hover:text-white transition-colors">ivkovicprevoz.rs</a>
-                        <a href="https://svetlecereklame3dart.rs" target="_blank" class="text-gray-400 hover:text-white transition-colors">svetlecereklame3dart.rs</a>
-                        <a href="https://ducadizajn.svilenkovic.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">ducadizajn.svilenkovic.com</a>
-                        <a href="https://pub.svilenkovic.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">pub.svilenkovic.com</a>
-                        <a href="https://koliba.svilenkovic.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">koliba.svilenkovic.com</a>
-                        <a href="https://klasicangejming.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">klasicangejming.com</a>
-                        <a href="https://svilenkovic.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">svilenkovic.com</a>
-                     </div>
+                     <nav aria-label="Drugi sajtovi" class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
+                        <a href="https://onbeat.ba" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">onbeat.ba</a>
+                        <a href="https://prvalekcija.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">prvalekcija.com</a>
+                        <a href="https://detailing016.rs" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">detailing016.rs</a>
+                        <a href="https://glassbosnjace.rs" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">glassbosnjace.rs</a>
+                        <a href="https://batastankovic.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">batastankovic.com</a>
+                        <a href="https://autoset.rs" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">autoset.rs</a>
+                        <a href="https://vodoinstalaterzlaja2015.rs" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">vodoinstalaterzlaja2015.rs</a>
+                        <a href="https://ivkovicprevoz.rs" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">ivkovicprevoz.rs</a>
+                        <a href="https://svetlecereklame3dart.rs" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">svetlecereklame3dart.rs</a>
+                        <a href="https://ducadizajn.svilenkovic.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">ducadizajn.svilenkovic.com</a>
+                        <a href="https://pub.svilenkovic.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">pub.svilenkovic.com</a>
+                        <a href="https://koliba.svilenkovic.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">koliba.svilenkovic.com</a>
+                        <a href="https://klasicangejming.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">klasicangejming.com</a>
+                        <a href="https://svilenkovic.com" target="_blank" rel="noopener" class="inline-block py-2 px-1 text-gray-300 hover:text-white transition-colors">svilenkovic.com</a>
+                     </nav>
                  </div>
      </footer>
 
     <!-- Cookie consent banner (vanilla, no tracking yet — demo only) -->
     <div id="cookie-banner" hidden role="dialog" aria-label="Cookie consent" class="fixed bottom-4 left-4 right-4 md:left-auto md:max-w-md z-[100] bg-bark text-white p-6 rounded-xl shadow-2xl">
         <h3 class="font-bold text-lg mb-2">Kolačići</h3>
-        <p class="text-sm text-gray-200 mb-4">Sajt koristi samo neophodne kolačiće za osnovnu funkcionalnost. Pogledaj <a href="/privacy.html" class="text-leaf underline">Politiku privatnosti</a>.</p>
+        <p class="text-sm text-white mb-4">Sajt koristi samo neophodne kolačiće za osnovnu funkcionalnost. Pogledaj <a href="/privacy.html" class="text-amber-300 underline font-semibold">Politiku privatnosti</a>.</p>
         <div class="flex gap-3">
-            <button id="cb-essential" type="button" class="flex-1 px-4 py-2 border border-white/30 text-sm rounded hover:bg-white/10 transition-colors">Samo neophodni</button>
-            <button id="cb-all" type="button" class="flex-1 px-4 py-2 bg-leaf text-white text-sm rounded font-semibold hover:bg-green-600 transition-colors">Prihvati sve</button>
+            <button id="cb-essential" type="button" class="flex-1 px-4 py-2 border border-white/40 text-sm rounded hover:bg-white/10 transition-colors">Samo neophodni</button>
+            <button id="cb-all" type="button" class="flex-1 px-4 py-2 bg-green-700 text-white text-sm rounded font-semibold hover:bg-green-800 transition-colors">Prihvati sve</button>
         </div>
     </div>
 
     <!-- Sticky mobile CTA bar -->
     <div class="fixed bottom-0 inset-x-0 z-40 bg-wood text-white shadow-2xl border-t border-white/10 md:hidden flex">
-        <a href="tel:+381612248989" class="flex-1 py-3 text-center text-sm font-semibold flex items-center justify-center gap-2 hover:bg-bark transition-colors">
+        <a href="tel:+381612248989" class="flex-1 py-3 text-center text-base font-semibold flex items-center justify-center gap-2 hover:bg-bark transition-colors">
             <i class="fas fa-phone" aria-hidden="true"></i> Pozovi
         </a>
-        <a href="#kontakt" class="flex-1 py-3 text-center text-sm font-semibold flex items-center justify-center gap-2 bg-leaf hover:bg-green-600 transition-colors">
+        <a href="#kontakt" class="flex-1 py-3 text-center text-base font-semibold flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 transition-colors">
             <i class="fas fa-calendar" aria-hidden="true"></i> Termin
         </a>
     </div>
