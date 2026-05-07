@@ -568,6 +568,3 @@ function updateAvailableTimes(selectedDate) {
 
 // Initialize booking form enhancements
 enhanceBookingForm();
-
-
-} 
